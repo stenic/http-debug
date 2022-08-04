@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/stenic/http-debug/compare/v1.0.1...v1.0.2) (2022-08-04)
+
+
+### Bug Fixes
+
+* Add all go files ([7c9e5ea](https://github.com/stenic/http-debug/commit/7c9e5ead7f2882b753bde1e0a4480f6600d418c8))
+
 ## [1.0.1](https://github.com/stenic/http-debug/compare/v1.0.0...v1.0.1) (2022-08-04)
 
 
