@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/stenic/http-debug/compare/v1.0.3...v1.0.4) (2022-08-04)
+
+
+### Bug Fixes
+
+* Prevent duplicates ([472d406](https://github.com/stenic/http-debug/commit/472d406787b6385bda777622acc0806fde49c1bd))
+
 ## [1.0.3](https://github.com/stenic/http-debug/compare/v1.0.2...v1.0.3) (2022-08-04)
 
 
