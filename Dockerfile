@@ -3,7 +3,7 @@ FROM golang:1.17 as builder
 WORKDIR /workspace
 COPY go.* .
 RUN go mod download
-COPY main.go main.go
+COPY *.go .
 RUN CGO_ENABLED=0 GOOS=linux go build -a -o /http-debug main.go
 
 
