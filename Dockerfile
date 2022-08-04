@@ -4,7 +4,7 @@ WORKDIR /workspace
 COPY go.* .
 RUN go mod download
 COPY *.go .
-RUN CGO_ENABLED=0 GOOS=linux go build -a -o /http-debug main.go
+RUN CGO_ENABLED=0 GOOS=linux go build -a -o /http-debug .
 
 
 # Use distroless as minimal base image to package the project
