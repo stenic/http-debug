@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/stenic/http-debug/compare/v1.0.2...v1.0.3) (2022-08-04)
+
+
+### Bug Fixes
+
+* Add templates ([a3aaadf](https://github.com/stenic/http-debug/commit/a3aaadf79235f269726846112518c213676f6ef3))
+
 ## [1.0.2](https://github.com/stenic/http-debug/compare/v1.0.1...v1.0.2) (2022-08-04)
 
 
