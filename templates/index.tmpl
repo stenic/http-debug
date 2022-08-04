@@ -1,0 +1,9 @@
+<html>
+	<h1>http-debug</h1>
+	<ul>
+		{{ range .items }}
+		<li>
+			<a href="{{ .Path }}">{{ .Name }}</a>
+		</li>
+		{{ end }}
+</html>

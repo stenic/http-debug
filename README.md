@@ -1,58 +1,47 @@
-# [[project]]
+# http-debug
 
-[[project]] does things.
+http-debug has some small tools to help you test and debug proxies and validate routing.
 
 ## Installation
 
 ```shell
-# homebrew
-brew install stenic/tap/[[project]]
-
-# gofish
-gofish rig add https://github.com/stenic/fish-food
-gofish install github.com/stenic/fish-food/[[project]]
-
-# scoop
-scoop bucket add [[project]] https://github.com/stenic/scoop-bucket.git
-scoop install [[project]]
-
 # go
-go install github.com/stenic/[[project]]@latest
+go install github.com/stenic/http-debug@latest
 
 # docker 
-docker pull ghcr.io/stenic/[[project]]:latest
+docker pull ghcr.io/stenic/http-debug:latest
 
 # dockerfile
-COPY --from=ghcr.io/stenic/[[project]]:latest /[[project]] /usr/local/bin/
+COPY --from=ghcr.io/stenic/http-debug:latest /http-debug /usr/local/bin/
 ```
 
-> For even more options, check the [releases page](https://github.com/stenic/[[project]]/releases).
+> For even more options, check the [releases page](https://github.com/stenic/http-debug/releases).
 
 
 ## Run
 
 ```shell
 # Installed
-[[project]] -h
+http-debug -h
 
 # Docker
-docker run -ti ghcr.io/stenic/[[project]]:latest -h
+docker run -ti ghcr.io/stenic/http-debug:latest -h
 
 # Kubernetes
-kubectl run [[project]] --image=ghcr.io/stenic/[[project]]:latest --restart=Never -ti --rm -- -h
+kubectl run http-debug --image=ghcr.io/stenic/http-debug:latest --restart=Never -ti --rm -- -h
 ```
 
 ## Documentation
 
 ```shell
-[[project]] -h
+http-debug -h
 ```
 
 ## Badges
 
-[![Release](https://img.shields.io/github/release/stenic/[[project]].svg?style=for-the-badge)](https://github.com/stenic/[[project]]/releases/latest)
-[![Software License](https://img.shields.io/github/license/stenic/[[project]]?style=for-the-badge)](./LICENSE)
-[![Build status](https://img.shields.io/github/workflow/status/stenic/[[project]]/Release?style=for-the-badge)](https://github.com/stenic/[[project]]/actions?workflow=build)
+[![Release](https://img.shields.io/github/release/stenic/http-debug.svg?style=for-the-badge)](https://github.com/stenic/http-debug/releases/latest)
+[![Software License](https://img.shields.io/github/license/stenic/http-debug?style=for-the-badge)](./LICENSE)
+[![Build status](https://img.shields.io/github/workflow/status/stenic/http-debug/Release?style=for-the-badge)](https://github.com/stenic/http-debug/actions?workflow=build)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge)](https://conventionalcommits.org)
 
 ## License
